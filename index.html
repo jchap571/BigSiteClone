@@ -1,0 +1,257 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Big Site Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+    defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <!-- NOTE header just contains navbar -->
+  <header class="sticky-top">
+    <div class="d-flex">
+      <nav class="navbar sticky-top bg-success container-fluid rubik p-2">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">
+            <i class="mdi mdi-barley d-inline-block align-items-center rubik text-light"></i>
+            Faustian Travel Agency
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- NOTE main contains all rows andcolumns with pictures and text -->
+  <main>
+    <div class="form container-fluid hero-img bg-image vh-25">
+      <section class="row p-5">
+        <div class="col-12 col-md-6 p-5">
+          <form class="form bg-white p-5">
+            <div class="mb-3 ml-3">
+              <h2 class="">Sign Up Now</h2>
+              <label for="InputName" class="form-label">Name</label>
+              <input type="Name" class="form-control" id="InputName" aria-describedby="emailHelp">
+              <div id="Name" class="form-text"></div>
+            </div>
+            <div class="mb-3 pl-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3 pl-3">
+              <label for="Phone Number" class="form-label">Phone Number</label>
+              <input type="Phone" class="form-control" id="InputPhone">
+            </div>
+            <div class="mb-3 pl-3">
+              <label for="exampleInputEmail1" class="form-label">EXT</label>
+              <input type="PhoneEXT" class="form-control" id="PhoneEXT" aria-describedby="emailHelp">
+              <div id="PhoneEXT" class="form-text"></div>
+            </div>
+            <div class="mb-3 pl-3">
+              <label for="InputMessage" class="form-label">Message</label>
+              <input type="Message" class="form-control" id="Message" aria-describedby="emailHelp">
+              <div id="Message" class="form-text"></div>
+            </div>
+            <div class="mb-3 pl-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me</label>
+            </div>
+            <button type="submit" class="btn btn-primary justify-content-center">Submit</button>
+          </form>
+        </div>
+
+        <div class="col-12 col-md-6 p-5 mt-5 d-none d-md-block splash-text">
+          <h2 class="text-light">Travel with Faustian for your Next Getaway</h2>
+          <p class="text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio voluptatum
+            iste omnis
+            optio ut dolores.</p>
+        </div>
+      </section>
+    </div>
+
+
+
+    <div class="container-fluid vh-20 bg-success p-5">
+      <section class="row p-5">
+        <div class="col-12 col-md-6 text-light order-md-1 order-sm-2 p-5">
+          <div class="">
+            <h2>Make Your Next Vacation a Bargain!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque beatae iusto minus excepturi
+              sapiente.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-6 order-sm-1 order-md-2  card-containment">
+          <div class="card magic-card">
+            <div class="card-body magic-card card-containment">
+              <ul>
+                <li class="mdi mdi-wrench">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li class="mdi mdi-car-back">Lorem ipsum dolor sit amet.</li>
+                <li class="mdi mdi-phone">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, quas.</li>
+                <li class="mdi mdi-chat-outline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li class="mdi mdi-lightning-bolt-circle">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+
+
+    <div class="container-fluid vh-30 bg-white p-5">
+      <section class="row p-5">
+        <div class="col-12 col-md-3">
+          <img class="img-fluid" src="imgs/mainIMG.avif" alt="scenery">
+
+        </div>
+        <div class="col-12 col-md-9 p-5">
+          <div class="d-flex align-text-top">
+            <span class="mdi mdi-check-decagram fs-1"></span>
+            <h2>Book your vacation with us and <b>Potentially Disappear in an Extreme Destination!</b></h2>
+          </div>
+          <div class="d-flex ">
+            <p class="fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium aliquid eos minus
+              commodi at est
+              incidunt, repellat ab, soluta repellendus ad dolorem, inventore optio? Doloribus praesentium incidunt hic
+              ullam doloremque ducimus earum atque asperiores, dolorum et architecto blanditiis ab ipsam!</p>
+          </div>
+          <div class="d-flex justify-content-end">
+            <button class="bg-success destination"><b>Check Out Destinations!</b></button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container-fluid vh-25 p-5 bg-secondary d-flex">
+      <section class="row align-items-center">
+        <div class="col-12 order-1 col-md-4 order-md-1 p-1">
+          <div class="card">
+            <div class="card-body">
+              <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, atque!"</p>
+              <p class="text-success">-Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 order-0 col-md-4 order-md-2 p-1">
+          <div class="card">
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <i class="mdi mdi-star-circle"></i>
+                <i class="mdi mdi-star-circle"></i>
+                <i class="mdi mdi-star-circle"></i>
+              </div>
+              <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia delectus quidem dolor optio corporis
+                numquam?"</p>
+              <p class="text-success">-Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 order-2 col-md-4 order-md-3 p-1">
+          <div class="card">
+            <div class="card-body">
+              <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto placeat ex sequi?"</p>
+              <p class="text-success">-Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container-fluid p-5 d-flex align-items-center bg-success">
+      <section class="row">
+        <div class="col-12">
+          <h1>Lorem ipsum dolor sit amet.</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint neque hic error deserunt! Nostrum, excepturi.
+
+          </p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="container-fluid d-flex p-5 bg-white justify-content-center text-success">
+      <section class="row">
+        <div class="col-12">
+          <p class="mdi mdi-registered-trademark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe,
+            repellendus esse. Tempora!</p>
+        </div>
+      </section>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

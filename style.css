@@ -1,0 +1,53 @@
+.hero-img {
+  background-image: url(imgs/heroImg.avif);
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+form.button {
+  justify-content: center;
+  align-items: end;
+}
+
+.headerGreet {
+  width: 5px solid blue;
+
+}
+
+.splash-text {
+  text-shadow: 0px 5px 10px black;
+
+}
+
+.magic-containment {
+  position: relative;
+  padding: 0;
+}
+
+.magic-card {
+
+
+  bottom: -20vh;
+  /* bottom: var(--magic-card-distance); */
+  background-color: rgba(252, 252, 252, 0.973);
+
+}
+
+.magic-card-offset {
+  --magic-card-distance: 0;
+  margin-top: 4vh;
+  margin-top: calc(-1 * var(--magic-card-distance));
+}
