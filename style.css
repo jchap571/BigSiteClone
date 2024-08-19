@@ -35,27 +35,19 @@ form.button {
 
 }
 
-/* .magic-containment {
-  position: relative;
-  padding: 0;
-} */
+
 
 .magic-card {
   bottom: -1vh;
-  /* bottom: var(--magic-card-distance); */
+
   background-color: rgba(252, 252, 252, 0.973);
 
 }
 
-/* 
-.magic-card-offset {
-  --magic-card-distance: 0;
-  margin-top: 4vh;
-  margin-top: calc(-1 * var(--magic-card-distance));
-} */
 
 
-@media screen and (min-width: 658px) {
+
+@media screen and (min-width: 768px) {
   .magic-containment {
     position: relative;
     padding: 0;
